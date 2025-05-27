@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  p{
+    font-size: 18px;
+  }
+}
+
+.header{
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/Youth\ Picture.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  justify-items: center;
+ 
+}
+.header h1{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.back-logo{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: white;
+  z-index: 2;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.back-logo:hover{
+  color: blue;
+}
+.contact-div{
+  padding-top: 150px;
+  
+}
+.know-more-btn{
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.meeting-div {
+  text-align: center;
+  color: #fff;
+  
+}
+.meeting-div h3{
+  margin-top: 20px;
+  color: rgb(8, 194, 8);
+  
+}
+.meeting-div p{
+  margin-top: 10px;
+}
+
+
+@media(max-width: 700px){
+  .header h1{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+ 
+  .back-logo{
+    font-size: 10px;
+  }
+  
+ 
+}
